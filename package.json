@@ -1,0 +1,29 @@
+{
+  "name": "merchantrelay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushtiwari1512-a11y/PayPal-Ai-Agent-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ayushtiwari1512-a11y/PayPal-Ai-Agent-/issues"
+  },
+  "homepage": "https://github.com/ayushtiwari1512-a11y/PayPal-Ai-Agent-#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "multer": "^2.5.0",
+    "zod": "^4.6.7"
+  }
+}
