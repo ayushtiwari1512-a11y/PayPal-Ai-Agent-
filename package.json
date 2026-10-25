@@ -2,10 +2,12 @@
   "name": "merchantrelay",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "node --test",
-    "start": "node server.js"
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "build": "npm --prefix client run build"
   },
   "repository": {
     "type": "git",
